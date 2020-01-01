@@ -2,7 +2,7 @@ class Employee
     # getter methods
     attr_reader :name, :title, :salary, :boss
     
-    def initialize
+    def initialize(name, salary)
         @name = name
         @title = title
         @salary = salary

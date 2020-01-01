@@ -1,7 +1,7 @@
 require_relative "employee"
 
 class Manager < Employee
-    def initialize
+    def initialize(name, salary)
         super
 
         @employees = []
