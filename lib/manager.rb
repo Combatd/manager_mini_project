@@ -7,6 +7,10 @@ class Manager < Employee
         @employees = []
     end
 
+    def assign_employee(employee)
+        @employees << employee
+    end
+
     def bonus(multiplier)
         salaries = 0
         @employees.each {|employee| salaries += employee.salary}
