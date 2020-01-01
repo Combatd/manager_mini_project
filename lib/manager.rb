@@ -1,6 +1,9 @@
 require_relative "employee"
 
 class Manager < Employee
+    # getter methods
+    attr_reader :employees
+
     def initialize(name, salary)
         super
 
