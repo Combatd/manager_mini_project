@@ -5,7 +5,7 @@ class Manager < Employee
     attr_reader :employees
 
     def initialize(name, salary)
-        super
+        super(name, salary)
 
         @employees = []
     end
